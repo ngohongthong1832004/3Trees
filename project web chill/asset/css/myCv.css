@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+  /* -webkit-user-select: auto; */
+}
+body {
+  position: relative;
+}
+.main {
+  width: 1071px;
+  height: 1515.6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: calc((100% - 1071px) / 2);
+  border: 1px solid black;
+  position: relative;
+}
+.change {
+  width: 1071px;
+  height: 1515.6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: calc((100% - 1071px) / 2);
+  border: 1px solid black;
+  position: relative;
+  background-color: aqua;
+}
+
+.main__header {
+  display: flex;
+  height: 16.7%;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+.wrap__picture {
+  width: 117.8px;
+  margin-left: auto;
+  z-index: 2;
+}
+.main__header__piture__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100%;
+  background-color: aqua;
+  border-radius: 50%;
+  z-index: 2;
+  border: 8px solid;
+}
+.main__header__picture {
+  width: 33.3%;
+  height: 100%;
+
+  z-index: 2;
+}
+.main__header__name {
+  width: 66.7%;
+  height: 100%;
+}
+.wrap {
+  width: 450px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc((248px - 120px) / 2);
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 8px solid;
+}
+.main__header__mainName {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 90px;
+}
+.main__header__anonymousName {
+  margin-left: 80px;
+  font-size: 20px;
+}
+.main__header__nameJob {
+  margin-left: 80px;
+}
+.main__content {
+  display: flex;
+  height: 83.3%;
+  width: 100%;
+  margin-top: 8px;
+}
+.main__content__info1 {
+  width: 33.3%;
+  height: 100%;
+  border-right: 1px solid;
+}
+.main__content__contact {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__personal {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__skills {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__software {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__hoppies {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__info2 {
+  width: 66.7%;
+  height: 100%;
+}
+.main__content__about {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__experimemts {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__projects {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.myProject {
+  display: flex;
+  align-items: center;
+}
+.logoProject {
+  flex: 1;
+  height: 50px;
+}
+.logoImg {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-top: -50px;
+}
+.img {
+  width: 60px;
+  position: relative;
+  padding: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../logo/lalaa/logo_transparent.png);
+}
+.startCode {
+  font-weight: 600;
+}
+.linkProject {
+  padding: 0 50px 0 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.name {
+  padding: 0 20px 0 8px;
+}
+.main__content__education {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__qualifications {
+  display: flex;
+  flex-direction: column;
+  /* height: 20%; */
+  width: 100%;
+}
+.main__content__deco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid;
+  z-index: 2;
+  background-color: white;
+}
+.tree {
+  font-size: 30px;
+}
+.wrap__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 8px; */
+}
+.main__content__tittle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  width: 200px;
+  border: 1px solid;
+  height: 30px;
+  margin-left: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 25px;
+}
+.wrap__content__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 300px;
+}
+.tittle {
+  font-weight: 600;
+}
+.contact {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.personal {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.skill {
+  height: 40px;
+  font-weight: 600;
+}
+.software {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 0;
+}
+.hoppies {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+.html__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.process__html__lv {
+  height: 100%;
+  width: 200px;
+  background-color: aqua;
+}
+.css__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.javascript__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.c__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.java__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.php__lv {
+  width: 300px;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.wrap__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 8px;
+}
+.time__Ex {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 0;
+}
+.timeEx {
+  width: 300px;
+  font-weight: 600;
+}
+.time__Edu {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 0;
+}
+.timeEdu {
+  font-weight: 600;
+  width: 170px;
+}
+.time__Qualification {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 0;
+}
+.timeQualification {
+  font-weight: 600;
+  width: 130px;
+}
+
+.btn__download {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: calc(((100% - 1271px) / 2) / 2);
+  top: 0;
+}
+.btn__download:hover {
+  cursor: pointer;
+  background-color: rgb(153, 146, 146);
+}
+.logo {
+  padding: 0;
+  font-size: 25px;
+}

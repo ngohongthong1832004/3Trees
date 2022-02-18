@@ -1,0 +1,323 @@
+/*MOBILE*/
+@media (max-width: 739px) {
+  /*start--responsive---HOME*/
+  /*-------------------------------------------*/
+  .home__header {
+    height: 35px;
+  }
+  /* .home__header__logo {
+  }
+  .home__header__logo__wrap {
+  } */
+  .home__logo__wrap {
+    margin-top: 30px;
+    width: 150px;
+  }
+
+  .home__logo {
+    margin: 0px;
+  }
+  .home__slogant {
+    display: none;
+  }
+  /* .home__header__group {
+  } */
+  .home__header__group__wrap {
+    display: none;
+  }
+  .home__header__group__wrap__responsive {
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* .home__header__group__modal__responsive {
+  } */
+  .home__header__group__wrap__logo__responsive {
+    cursor: pointer;
+  }
+  .home__header__group__wrap__logo__responsive:hover {
+    opacity: 0.6;
+  }
+  .home__content {
+    margin-top: 35px;
+  }
+  .modal__form {
+    top: 35px;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  .modal__introduction {
+    width: 90%;
+    height: 375px;
+  }
+  .modal__introduction__header {
+    width: 100%;
+    height: 70px;
+  }
+  .modal__introduction__header__name {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+  .modal__introduction__header__logo__img {
+    margin-top: -30px;
+  }
+  .modal__introduction__content__wrap {
+    padding: 5px 10px;
+  }
+  .modal__tutorial {
+    width: 90%;
+    height: 375px;
+  }
+  .modal__tutorial__header {
+    width: 100%;
+    height: 70px;
+  }
+  .modal__tutorial__header__name {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+  .modal__tutorial__header__logo__img {
+    margin-top: -30px;
+  }
+  .modal__tutorial__content__wrap {
+    padding: 5px 10px;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  .modal__tutorial {
+    width: 90%;
+    height: 300px;
+  }
+  /* .home__film {
+  } */
+  .home__film__content {
+    display: flex;
+    padding: 20px 20px 50px 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .home__film__img {
+    padding-bottom: 50px;
+  }
+  .tick__slide {
+    bottom: 25px;
+  }
+  .home__film__content_wrap {
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: diagonal-fractions;
+    color: white;
+  }
+  .home__film__content__title {
+    font-size: 28px;
+    font-variant: diagonal-fractions;
+    color: white;
+  }
+  .home__film__content__discription {
+    padding-top: 10px;
+    color: white;
+  }
+  .home__content__film {
+    font-size: 12px;
+  }
+  .home__btn__film {
+    width: 52px;
+    height: 26px;
+    font-size: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    left: calc(50% - 26px);
+    bottom: -35px;
+  }
+  .home__music__img {
+    padding-bottom: 50px;
+  }
+  /* .home__music {
+  } */
+  .home__music__content {
+    display: flex;
+    padding: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .home__music__content_wrap {
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: diagonal-fractions;
+    color: white;
+    padding-bottom: 60px;
+  }
+  .home__music__content__title {
+    font-size: 28px;
+    font-variant: diagonal-fractions;
+    color: white;
+  }
+  .home__music__content__discription {
+    padding-top: 10px;
+    color: white;
+  }
+  .home__content__music {
+    font-size: 12px;
+  }
+  .home__btn__music {
+    width: 52px;
+    height: 26px;
+    font-size: 10px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    left: calc(50% - 26px);
+    bottom: 25px;
+  }
+  /* .home__music__img {
+  } */
+  /*===========================*/
+  /* .home__art {
+  } */
+  .home__art__content {
+    display: flex;
+    padding: 20px 20px 50px 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .home__art__img {
+    padding-bottom: 50px;
+  }
+  .home__art__content_wrap {
+    font-size: 50px;
+    font-weight: 700;
+    font-variant: diagonal-fractions;
+    color: white;
+  }
+  .home__art__content__title {
+    font-size: 28px;
+    font-variant: diagonal-fractions;
+    color: white;
+  }
+  .home__art__content__discription {
+    padding-top: 10px;
+    color: white;
+  }
+  .home__content__art {
+    font-size: 12px;
+  }
+  .home__btn__art {
+    width: 52px;
+    height: 26px;
+    font-size: 10px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    left: calc(50% - 26px);
+    bottom: -35px;
+  }
+  /*===========================*/
+
+  /* .home__footer {
+  }
+  .home__footer__wrap {
+  }
+  .home__footer__information {
+  }
+  .home__footer__information__wrap {
+  } */
+  .home__footer__firm {
+    padding-bottom: 50px;
+  }
+  /* .home__footer__firm__title {
+  } */
+  .home__footer__3trees {
+    width: 100px;
+  }
+  /* .home__footer__logo__firm {
+  }
+  .home__footer__forest {
+  }
+  .home__footer__logo__firm {
+  } */
+  .home__footer__about {
+    padding-bottom: 20px;
+  }
+  /* .home__footer__about__title {
+  }
+  .home__footer__about__myCV {
+  } */
+  .home__footer__contact {
+    padding-bottom: 20px;
+  }
+  /* .home__footer__contact__title {
+  }
+  .home__footer__contact__gmail {
+  }
+  .home__footer__contact__phone {
+  }
+  .home__footer__contact__located {
+  }
+  .home__footer__download {
+  }
+  .home__footer__download__title {
+  }
+  .home__footer__download__app {
+  }
+  .home__footer__download__ios {
+  }
+  .home__footer__download__ios__img {
+  }
+  .home__footer__download__microsoft {
+  }
+  .home__footer__download__microsoft__img {
+  }
+  .home__footer__download__qr {
+  }
+  .home__footer__download__qr__img {
+  }
+  .home__footer__links {
+  }
+  .home__footer__links__wrap {
+  } */
+  .home__footer__facebook {
+    padding: 16px 0 8px 0;
+  }
+  .home__footer__btn__facebook {
+    width: 150px;
+  }
+  .home__footer__twitter {
+    padding: 16px 0 8px 0;
+  }
+  .home__footer__btn__twitter {
+    width: 150px;
+  }
+  .home__footer__instagram {
+    padding: 8px 0;
+  }
+  .home__footer__btn__instagram {
+    width: 150px;
+  }
+  .home__footer__google {
+    padding: 8px 0;
+  }
+  .home__footer__btn__google {
+    width: 150px;
+  }
+  .home__footer__githup {
+    padding: 8px 0 0 0;
+  }
+  .home__footer__btn__githup {
+    width: 150px;
+  }
+  /* .home__footer__brand {
+  }
+  .home__footer__brand__wrap {
+  } */
+  /*end--responsive---HOME*/
+}
+/*TABLET*/
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+/*PC*/
+@media (min-width: 1024px) {
+  .home__header__group__modal__responsive {
+    display: none;
+  }
+  .modal__form {
+    top: 60px;
+  }
+}
